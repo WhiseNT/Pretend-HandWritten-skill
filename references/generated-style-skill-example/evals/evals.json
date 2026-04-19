@@ -1,0 +1,23 @@
+{
+  "skill_name": "imitate-user-style-example",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "请按这份 style-profile 和代表性片段的写法，补全一个新的 Python service 函数。",
+      "expected_output": "输出应保持 Python 画像中的命名和控制流习惯，并在样本不足时说明保守补全点。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "请按这份 TypeScript 风格补全一个新模块，不要把 Python 的组织方式迁移过来。",
+      "expected_output": "输出应遵守 TypeScript 画像中的 export、命名和控制流习惯，并避免跨语言误迁移。",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "样本中有本人加 AI 的兼容层，请补代码时不要把那部分风格误当成稳定基线。",
+      "expected_output": "输出应明确遵守来源边界，不把本人加 AI 或协作者风格误并入稳定常态。",
+      "files": []
+    }
+  ]
+}
